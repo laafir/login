@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+.main{
+    height: 550px;
+    width: 400px;
+    background-color: white;
+    padding: 50px;
+   border-radius: 27px;
+}
+.log{
+    font-size: 40px;
+    text-align: left;
+}
+.bottom-text{
+    margin: 10px;
+}
+.acc{
+    margin-left: 12px;
+    color: rgb(97, 187, 157);
+}
+#e-mail{
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+#mail{
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: 500;
+    
+}
+#password{
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: 500;
+}
+#pass-text{
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 30px;
+    margin-top: 2px;
+}
+.Mail{
+    margin: 10px;
+}
+.pass{
+    margin-top: 20px;
+    margin: 10px;
+}
+
+.check{
+    margin: 10px;
+    display: flex;
+    margin-top: 20px;
+}
+.log{
+    margin: 10px;
+}
+#keep{
+    font-size: medium;
+    color: rgb(73, 73, 72);
+    font-weight: 500;
+    margin-left:10px ;
+}
+#check-box{
+   width: 30px;
+
+}
+#login-btn{
+    height: 40px;
+    width: 130px;
+    border: none;
+    background-color: rgb(97, 187, 157);
+    color: aliceblue;
+    font-size:large;
+    font-weight: 700;
+    border-radius: 30px;
+}
+.foot{
+    margin: 10px;
+    color:rgb(97, 187, 157) ;
+}
+.foott{
+    margin-top: 20px;
+}
+@media only screen and (max-width: 768px) {
+    .main{
+        height: 500px;
+        width: 360px;
+        background-color: white;
+        padding: 30px;
+       border-radius: 27px;
+    }
+}
